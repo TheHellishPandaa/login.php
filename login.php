@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Ejemplo de redirección a otra página web
     if ($usuario == 'admin' && $contraseña == 'admin123') {
-        header('Location: reservasdeaulas.php');
+        header('Location: example.php');
         exit();
     } else {
         $mensaje_error = 'Credenciales incorrectas. Inténtalo de nuevo.';
